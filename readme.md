@@ -13,3 +13,4 @@
 пакета java.util.concurrent и других специальных библиотек от сторонних разработчиков.
 
 Сборка проекта: **mvn package**
+Запуск проекта: В папке "target" **java -jar Multithreading-1.jar**
