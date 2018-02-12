@@ -1,10 +1,12 @@
+package multithreading;
+
 public class Writer implements Runnable {
     private Warehouse warehouse;
 
     public Writer(Warehouse warehouse) {
         this.warehouse = warehouse;
     }
-    @Override
+
     public void run() {
         while(!Thread.interrupted()) {
             try {

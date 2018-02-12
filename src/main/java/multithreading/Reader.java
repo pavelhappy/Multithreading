@@ -1,3 +1,5 @@
+package multithreading;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.List;
@@ -9,7 +11,7 @@ public class Reader implements Runnable {
     public Reader(Warehouse warehouse) {
         this.warehouse = warehouse;
     }
-    @Override
+
     public void run() {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String enteredText;
